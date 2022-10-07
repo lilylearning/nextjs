@@ -14,7 +14,7 @@ export default function Home() {
         <h1 className="title">
           Welcome to{" "}
           <Link href="https://nextjs.org">
-            <a target="_blank"> Next.js!</a>
+            <a target="_blank"> Nas.js!</a>
           </Link>
         </h1>
 
