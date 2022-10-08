@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 // 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
+// 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
 
 export default function Home() {
   return (
@@ -17,30 +18,51 @@ export default function Home() {
             <a target="_blank"> Nas.js!</a>
           </Link>
         </h1>
+        <div style={{ padding: "0 10%" }}>
+          <p className="description">
+            Hello Nas! In our zoom meeting we'll deploy a{" "}
+            <code style={{ color: "red" }}>Next.js</code> page like this one so
+            you can play with & edit as you wish 😃
+          </p>
 
-        <p className="description">
-          So! In our next zoom meeting, we'll be deploying a{" "}
-          <code>Next.js</code> page like this one, so you can play with and edit
-          it as you wish 😃!
-        </p>
+          <p className="description">
+            Remember opening a {""}
+            <Link href="https://www.netlify.com/">
+              <a target="_blank" rel="noreferrer">
+                <strong style={{ color: "blue" }}>Netlify account</strong>
+              </a>
+            </Link>{" "}
+            to host your website, open a <strong>personal</strong>{" "}
+            <Link href="https://github.com">
+              <a target="_blank" rel="noreferrer">
+                <strong style={{ color: "blue" }}>Github account</strong>
+              </a>
+            </Link>{" "}
+            (in case you dont have a non-work-related one already) and then
+            start playing around with{" "}
+            <code style={{ color: "red" }}>Next.js</code>,{" "}
+            <code style={{ color: "red" }}>React-Bootstrap</code> and whatever
+            other technologies you wanna dive in 🤘🏽! Dont wanna do a static
+            site?{" "}
+            <a
+              href="link"
+              target="_blank"
+              rel="noreferrer"
+              style={{ color: "blue" }}
+            >
+              <strong>Here you can find</strong>
+            </a>{" "}
+            a bunch of free APIs you can take ideas from/work with. Me and d
+            team are gonna miss you, a LOT, so dont be a stranger!
+          </p>
 
-        <p className="description">
-          Remember to open a {""}
-          <Link href="https://www.netlify.com/">
-            <a target="_blank" rel="noreferrer">
-              <strong style={{ color: "blue" }}>Netlify account</strong>
-            </a>
-          </Link>{" "}
-          so you can host your website using a free domain name (like the one I
-          am using here), and then start playing around with React-Bootstrap.
-          You'll be amazed with how incredibly simple it is 🤘🏽!
-        </p>
-
-        <p className="description">
-          The content below is part of the template all <code>Next.js</code>'{" "}
-          projects start with. Until soon and... enjoy your family meeting 🙌🏽 ❤️
-          !
-        </p>
+          <p className="description">
+            And pay no-mind at the cards below, they are part of the template
+            that all <code style={{ color: "red" }}>Next.js</code>' projects
+            start with, and I am feeling too lazy to delete them 😋. Until soon
+            and... enjoy your uncle/family meetings 🙌🏽 ❤️ !
+          </p>
+        </div>
 
         <div className="grid">
           <a href="https://nextjs.org/docs" className="card">
