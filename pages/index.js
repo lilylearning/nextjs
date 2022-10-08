@@ -19,7 +19,27 @@ export default function Home() {
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          So! In our next zoom meeting, we'll be deploying a{" "}
+          <code>Next.js</code> page like this one, so you can play with and edit
+          it as you wish 😃!
+        </p>
+
+        <p className="description">
+          Remember to open a {""}
+          <Link href="https://www.netlify.com/">
+            <a target="_blank" rel="noreferrer">
+              <strong style={{ color: "blue" }}>Netlify account</strong>
+            </a>
+          </Link>{" "}
+          so you can host your website using a free domain name (like the one I
+          am using here), and then start playing around with React-Bootstrap.
+          You'll be amazed with how incredibly simple it is 🤘🏽!
+        </p>
+
+        <p className="description">
+          The content below is part of the template all <code>Next.js</code>'{" "}
+          projects start with. Until soon and... enjoy your family meeting 🙌🏽 ❤️
+          !
         </p>
 
         <div className="grid">
