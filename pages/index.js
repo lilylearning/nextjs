@@ -18,7 +18,7 @@ export default function Home() {
             <a target="_blank"> Nas.js!</a>
           </Link>
         </h1>
-        <div style={{ padding: "0 10%" }}>
+        <div style={{ padding: "0 5%" }}>
           <p className="description">
             Hello Nas! In our zoom meeting we'll deploy a{" "}
             <code style={{ color: "red" }}>Next.js</code> page like this one so
