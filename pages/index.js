@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 // 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
 // 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
+// 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
 
 export default function Home() {
   return (
@@ -45,7 +46,7 @@ export default function Home() {
             other technologies you wanna dive in 🤘🏽! Dont wanna do a static
             site?{" "}
             <a
-              href="link"
+              href="https://rapidapi.com/collection/list-of-free-apis"
               target="_blank"
               rel="noreferrer"
               style={{ color: "blue" }}
